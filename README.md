@@ -23,7 +23,7 @@ CWRU Data Analytics Boot Camp VBA Homework: The VBA of Wall Street
       
      Loop
     End Sub
-'====================================================================================
+'=================================================================================
 
 'Create the second sub SumarizeStock
 
@@ -85,7 +85,7 @@ CWRU Data Analytics Boot Camp VBA Homework: The VBA of Wall Street
       End If
      
     Next i
- '------------------------------------------------------------------------------------------------------------------------------------------------
+ '---------------------------------------------------------------------------------------------------------------
  
     ' next set conditional formatting color for column J
      Dim lastrowyearly As Double
@@ -103,7 +103,7 @@ CWRU Data Analytics Boot Camp VBA Homework: The VBA of Wall Street
        End If
    
      Next i
-  '------------------------------------------------------------------------------------------------------------------------------------------------
+  '---------------------------------------------------------------------------------------------------------------
   
     'then fill values into column P and Q
     'set lastrow to find the max/min value from percent change column
@@ -135,7 +135,7 @@ CWRU Data Analytics Boot Camp VBA Homework: The VBA of Wall Street
        End If
      
     Next i
- '------------------------------------------------------------------------------------------------------------------------------------------------
+ '-----------------------------------------------------------------------------------------------------------------
  
     'after that set lastrow to find the max volume from total volume column
      Dim lastrowvolume As Long
@@ -156,7 +156,8 @@ CWRU Data Analytics Boot Camp VBA Homework: The VBA of Wall Street
      Next i
     
     End Sub
-'====================================================================================
+'==============================================================================
+
 'Create the first sub AddHeaderandGreatest
 
     Sub AddHeaderandGreatest()
