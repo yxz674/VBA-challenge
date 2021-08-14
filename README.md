@@ -23,7 +23,7 @@ CWRU Data Analytics Boot Camp VBA Homework: The VBA of Wall Street
       
      Loop
     End Sub
-'=================================================================================
+'=================================================================
 
 'Create the second sub SumarizeStock
 
@@ -135,7 +135,7 @@ CWRU Data Analytics Boot Camp VBA Homework: The VBA of Wall Street
        End If
      
     Next i
- '-----------------------------------------------------------------------------------------------------------------
+ '---------------------------------------------------------------------------------------------------------------
  
     'after that set lastrow to find the max volume from total volume column
      Dim lastrowvolume As Long
@@ -156,7 +156,7 @@ CWRU Data Analytics Boot Camp VBA Homework: The VBA of Wall Street
      Next i
     
     End Sub
-'==============================================================================
+'=================================================================
 
 'Create the first sub AddHeaderandGreatest
 
@@ -184,7 +184,7 @@ CWRU Data Analytics Boot Camp VBA Homework: The VBA of Wall Street
      ActiveCell.FormulaR1C1 = "Total Stock Voume"
    
     End Sub
-'====================================================================================   
+'=================================================================  
 
 ' codes created in Moduel 2
 
