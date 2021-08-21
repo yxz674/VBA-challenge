@@ -1,4 +1,4 @@
-# VBA-challenge
+# VBA-challenge Script
 CWRU Data Analytics Boot Camp VBA Homework: The VBA of Wall Street
 
 ' codes created in Moduel 1
