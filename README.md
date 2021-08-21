@@ -25,7 +25,7 @@ CWRU Data Analytics Boot Camp VBA Homework: The VBA of Wall Street
     End Sub
 '=================================================================
 
-'Create the second sub SumarizeStock
+'Create the second sub SummarizeStock
 
     Sub SummarizeStock()
     
