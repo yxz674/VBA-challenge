@@ -70,7 +70,7 @@ CWRU Data Analytics Boot Camp VBA Homework: The VBA of Wall Street
            Range("K" & Summary_Table_Row).Value = PercentChange
            
           'set the format of column K as percentage
-           Range("K" & Summary_Table_Row).Value = "Percent"
+           Range("K" & Summary_Table_Row).Style = "Percent"
            
         Summary_Table_Row = Summary_Table_Row + 1 
         
@@ -162,26 +162,16 @@ CWRU Data Analytics Boot Camp VBA Homework: The VBA of Wall Street
 
     Sub AddHeaderandGreatest()
 
-    'use Macro Recording function to add Headers for column I:L and O:Q
-     Range("02").Select
-     ActiveCell.FormulaR1C1 = "Greatest % Increase"
-     Range("03").Select
-     ActiveCell.FormulaR1C1 = "Greatest % Decrease"
-     Range("04").Select
-     ActiveCell.FormulaR1C1 = "Greatest Total Volume"
-     Range("P1").Select
-     ActiveCell.FormulaR1C1 = "Ticker"
-     Range("Q1").Select
-     ActiveCell.FormulaR1C1 = "Value"
-   
-     Range("I1").Select
-     ActiveCell.FormulaR1C1 = "Ticker"
-     Range("J1").Select
-     ActiveCell.FormulaR1C1 = "Yearly Change"
-     Range("K1").Select
-     ActiveCell.FormulaR1C1 = "Percent Change"
-     Range("L1").Select
-     ActiveCell.FormulaR1C1 = "Total Stock Voume"
+    Cells(2, 15).Value = "Greatest%Increase"
+    Cells(3, 15).Value = "Greatest%Decrease"
+    Cells(4, 15).Value = "Greatest Total Volume"
+    Cells(1, 16).Value = "Ticker"
+    Cells(1, 17).Value = "Value"
+
+    Cells(1, 9).Value = "Ticker"
+    Cells(1, 10).Value = "Yearly Change"
+    Cells(1, 11) = "Percent Change"
+    Cells(1, 12) = "Total Stock Voume"
    
     End Sub
 '=================================================================  
