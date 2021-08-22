@@ -3,8 +3,8 @@
 'Create the first sub AddHeaderandGreatest
 Sub AddHeaderandGreatest()
 
-Cells(2, 15).Value = "Greatest%Increase"
-Cells(3, 15).Value = "Greatest%Decrease"
+Cells(2, 15).Value = "Greatest % Increase"
+Cells(3, 15).Value = "Greatest % Decrease"
 Cells(4, 15).Value = "Greatest Total Volume"
 Cells(1, 16).Value = "Ticker"
 Cells(1, 17).Value = "Value"
