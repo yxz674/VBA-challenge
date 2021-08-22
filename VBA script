@@ -1,5 +1,5 @@
 '=================================================================
-'Module 1
+'Write code in Module 1
 'Create the first sub AddHeaderandGreatest
 Sub AddHeaderandGreatest()
 
@@ -140,7 +140,7 @@ Dim Greatest_Total_Volume As Double
 
 End Sub
 '---------------------------------------------------------------------------------------------------------------
-' codes created in Moduel 1 'this sub is for allowing the VBA scripts automatically run on every Worksheet 2016, 2015, 2014
+'this sub is for allowing the VBA scripts automatically run on every Worksheet 2016, 2015, 2014
 'Macro is assigned to "Click to Summarize Stock" Button
 Sub AutomateAdd()
 
@@ -161,8 +161,9 @@ Columns("O:Q").EntireColumn.AutoFit
 Loop
 
 End Sub
-
-'Module 2
+'=================================================================
+'Write code in Module 2
+'Macro is assigned to "Clear Enterred Data" Button
 Sub ClearEnterredData()
 
   Dim i As Integer
