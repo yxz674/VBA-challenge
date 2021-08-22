@@ -15,7 +15,7 @@ Cells(1, 11) = "Percent Change"
 Cells(1, 12) = "Total Stock Voume"
 
 End Sub
-'=================================================================
+'----------------------------------------------------------------------------------------------------
 'Create the second sub SummarizeStock
 Sub SummarizeStock()
 'set variables for all columns in summary_table_row(I:L)
@@ -74,7 +74,7 @@ Sub SummarizeStock()
     End If
  
  Next i
-'---------------------------------------------------------------------------------------------------------------
+'----------------------------------------------------------------------------------------------------
 ' next set conditional formatting color for column J
 Dim lastrowyearly As Double
     lastrowyearly = Range("J" & Rows.Count).End(xlUp).Row
@@ -91,7 +91,7 @@ Dim lastrowyearly As Double
    End If
  
  Next i
-'---------------------------------------------------------------------------------------------------------------
+'----------------------------------------------------------------------------------------------------
 'then fill values into column P and Q
 'set lastrow to find the max/min value from percent change column
 Dim lastrowpercent As Long
@@ -121,7 +121,7 @@ Dim Greatest_Percent_Decrease As Double
     End If
  
  Next i
-'---------------------------------------------------------------------------------------------------------------
+'----------------------------------------------------------------------------------------------------
 'after that set lastrow to find the max volume from total volume column
 Dim lastrowvolume As Long
     lastrowvolume = Range("L" & Rows.Count).End(xlUp).Row
@@ -139,7 +139,7 @@ Dim Greatest_Total_Volume As Double
  Next i
 
 End Sub
-'---------------------------------------------------------------------------------------------------------------
+'=================================================================
 'Write code in Module 2
 'this sub is for allowing the VBA scripts automatically run on every Worksheet 2016, 2015, 2014
 'Macro is assigned to "Click to Summarize Stock" Button
