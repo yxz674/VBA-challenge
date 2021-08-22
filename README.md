@@ -1,11 +1,17 @@
-VBA Homework: The VBA of Wall Street
-use VBA scripting to analyze real stock market data.
+VBA Homework: The VBA of Wall Street-use VBA scripting to analyze real stock market data.
+
 Create a script that will loop through all the stocks for one year and output the following information:
+
 o	The ticker symbol.
+
 o	Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
+
 o	The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
+
 o	The total stock volume of the stock.
+
 o	conditional formatting that will highlight positive change in green and negative change in red.
+
 Then create another script to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume
 
 2014 Mutiple_year_stock_data result screenshot
