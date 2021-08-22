@@ -140,6 +140,7 @@ Dim Greatest_Total_Volume As Double
 
 End Sub
 '---------------------------------------------------------------------------------------------------------------
+'Write code in Module 2
 'this sub is for allowing the VBA scripts automatically run on every Worksheet 2016, 2015, 2014
 'Macro is assigned to "Click to Summarize Stock" Button
 Sub AutomateAdd()
@@ -162,7 +163,7 @@ Loop
 
 End Sub
 '=================================================================
-'Write code in Module 2
+'Write code in Module 3
 'Macro is assigned to "Clear Enterred Data" Button
 Sub ClearEnterredData()
 
